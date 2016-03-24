@@ -1,0 +1,17 @@
+<html>
+<head>
+  
+<script type="text/javascript"  src="angular/angular.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div id="container">
+            <div id="login" ng-app='angular' ng-controller='sign_up'>
+              Username  <input type="text" size="40" ng-model="email"><br>
+                Password <input type="password" size="40" ng-model="password"><br>
+                <button ng-click="check()">submit</button><br>
+                <span id="message"></span>
+            </div>
+</div>
+    </body>
+</html>
